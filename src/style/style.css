@@ -47,6 +47,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 82px;
     
 }
 
@@ -127,4 +128,24 @@ body {
 
 .destaque {
     color: var(--cor-terciaria);
+}
+
+@media (max-width: 1200px) {
+    
+    .cabecalho {
+        padding: 10%;
+    }
+    
+    .cabecalho-menu {
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .container-conteudo {
+        width: auto;
+    }
 }
