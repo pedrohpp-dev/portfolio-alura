@@ -101,7 +101,7 @@ body {
     transition: 0.5s all ease-in-out;
 }
 
-.container-conteudo-links-link:hover {
+.container-conteudo-links-navegacao:hover {
     background-color: var(--cor-hover);
     transform: scale(1.1);
 }
